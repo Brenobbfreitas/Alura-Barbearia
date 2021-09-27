@@ -31,3 +31,38 @@ nav a {
     text-decoration: none;
     /* retirou o sublinhado da tag a */
 }
+
+
+.produtos{
+    width: 940px;
+    margin: 0 auto;
+    padding: 50px 0;
+    /* ajusta o tamanho interno */
+}
+
+.produtos li{
+    display: inline-block;
+    /* display = faz com que os blocos se alinhem um do lado do outro */
+    text-align: center;
+    /* aling = faz com que o conteudo seja alinhado ao centro */
+    width: 30%;
+    /* opcupar 30% do bloco */
+    vertical-align: top;
+    /* faz com que o bloco se alinhe pelo topo ao inves do padrão que é o bot */
+}
+
+.produtos h2{
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.produtos-descricao{
+    
+}
+
+.produtos-preço{
+    font-size: 22px;
+    font-weight: bold;
+    /* peso da fonte */
+}
+
