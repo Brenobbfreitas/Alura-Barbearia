@@ -32,6 +32,11 @@ nav a {
     /* retirou o sublinhado da tag a */
 }
 
+nav a:hover{
+    color: #C78C19;
+    text-decoration: underline;
+}
+
 
 .produtos{
     width: 940px;
@@ -49,6 +54,26 @@ nav a {
     /* opcupar 30% do bloco */
     vertical-align: top;
     /* faz com que o bloco se alinhe pelo topo ao inves do padrão que é o bot */
+    margin: 0 1.5%;
+    padding: 30px 20px;
+    box-sizing: border-box;
+    /* defini o espaçamento interno como absoluto ao inves de somar % com px */
+    border: 2px solid #000000;
+    border-radius: 10%;
+    /* calculando o raio da borda */
+}
+
+.produtos li:hover{
+    border-color: #C78C19;
+    
+}
+
+.produtos li:active{
+    border-color: green;
+}
+
+.produtos li:hover h2{
+    font-size: 34px;
 }
 
 .produtos h2{
@@ -57,12 +82,13 @@ nav a {
 }
 
 .produtos-descricao{
-    
+    font-size: 18px;
 }
 
 .produtos-preço{
     font-size: 22px;
     font-weight: bold;
     /* peso da fonte */
+    margin-top: 10px;
 }
 
