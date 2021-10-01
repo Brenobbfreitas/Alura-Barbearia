@@ -1,71 +1,127 @@
-body{
-    background-color: white;
+header{
+    background: #BBBBBB;
+    padding: 20px 0;
 }
 
-#banner{
-    width: 100%; 
+.box{
+    width: 940px;
+    position: relative;
+    margin: 0 auto;
+    /* posicionamento ao centro */
 }
 
-.principal{
-    background-color: gray;
-    padding: 30px;
+nav{
+    position: absolute;
+    right: 0;
+    top: 110px;
 }
 
-.titulo-principal{
-    margin-left: 20px;
+nav li {
+    display: inline;
+    margin: 0 0 0 15px ;
 }
 
-.titulo-centralizado{
-    text-align: center;
+nav a {
+    text-transform: uppercase;
+    color: #000000;
+    font-weight: bold; 
+    /* muda a fonte espeçura*/
+    font-size: 22px;
+    /* muda o tamanho */
+    text-decoration: none;
+    /* retirou o sublinhado da tag a */
 }
 
-p{
-    text-align: center;
-}
-
-
-#missao{
-    text-align: center;
-    font-size: 20px;
-}
-
-
-em strong{
-    color: #FF0000;
-}
-
-.itens{
-    font-style: italic;
-}
-
-.beneficios{
-    background-color: #FFFFFF;
-    padding: 20px;
+nav a:hover{
+    color: #C78C19;
+    text-decoration: underline;
 }
 
 
-ul{
+.produtos{
+    width: 940px;
+    margin: 0 auto;
+    padding: 50px 0;
+    /* ajusta o tamanho interno */
+}
+
+.produtos li{
     display: inline-block;
+    /* display = faz com que os blocos se alinhem um do lado do outro */
+    text-align: center;
+    /* aling = faz com que o conteudo seja alinhado ao centro */
+    width: 30%;
+    /* opcupar 30% do bloco */
     vertical-align: top;
-    width: 20%;
-    margin-right: 15%;
+    /* faz com que o bloco se alinhe pelo topo ao inves do padrão que é o bot */
+    margin: 0 1.5%;
+    padding: 30px 20px;
+    box-sizing: border-box;
+    /* defini o espaçamento interno como absoluto ao inves de somar % com px */
+    border: 2px solid #000000;
+    border-radius: 10%;
+    /* calculando o raio da borda */
 }
 
-.imagembeneficios{
+.produtos li:hover{
+    border-color: #C78C19;
+    
+}
+
+.produtos li:active{
+    border-color: green;
+}
+
+.produtos li:hover h2{
+    font-size: 34px;
+}
+
+.produtos h2{
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.produtos-descricao{
+    font-size: 18px;
+}
+
+.produtos-preço{
+    font-size: 22px;
+    font-weight: bold;
+    /* peso da fonte */
+    margin-top: 10px;
+}
+
+footer{
+    text-align: center;
+    background: url("../img-produtos/bg.jpg");
+    padding: 40px 0 ;
+}
+
+.copyright{
+    color: #FFFFFF;
+    font-size: 13px;
+    margin: 20px 0 0;
+}
+
+main{
+    width: 940px;
+    margin: auto;
+}
+
+form{
+    margin: 40px 0;
+}
+
+form label{
+    display: block;
+    font-size: 20px;
+    margin: 0 0 10px;
+}
+
+form input{
+    display: block;
+    margin: 0 0 20px;
+    padding: 10px 25px;
     width: 50%;
 }
-
-
-
-/* color hexadecimal entendendo*/
-
-/* hexadecimal 0123456789ABCDEF */
-/* Quanto mais proximo do F = color max BRANCO */
-/* Quanto mais proximo do 0 = color min PRETO */
-/* RGB = RED GREEN BLUE */
-/* # _ _ _ _ _ _ */ 
-/* 0 = Ausencia */
-/* F = Maximo */
-
-/* padrão RGB */
-/* RGB = 0,1,2,3, ...255 */
