@@ -147,8 +147,32 @@ form label, form legend{
     border: none;
     border-radius: 5px;
     transition: 1s background;
+    /* muda a transição do butao */
+    cursor: pointer;
+    /* muda o ponteiro */
+    transition: 1s all;
+    /* aumentar o elemento */
 }
 
 .enviar:hover{
     background: darkorange;
+    transform:scale(1,1.2);
+    /* transformando a escala do butão  */
+    /* transform: rotate(70deg) scale(1,1.2) faz o item rodar e aumentar */ 
+    transform: scale(1.2);
+}
+
+table{
+    margin: 20px 0 40px;
+}
+
+thead{
+    background: #555555;
+    color: white;
+    font-weight: bold;
+}
+
+td, th{
+    border: 1px solid #000000;
+    padding: 8px 15px;
 }
