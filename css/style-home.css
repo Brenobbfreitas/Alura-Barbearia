@@ -2,22 +2,37 @@ body{
     background-color: white;
 }
 
-#banner{
-    width: 100%; 
-}
 
 .principal{
     background-color: gray;
     padding: 30px;
 }
 
+.principal p{
+    margin: 0 0 1em;
+}
+
+.principal strong{
+    font-weight: bold;
+}
+
+
+.principal em {
+    font-style: italic;
+}
+
 .titulo-principal{
     margin-left: 20px;
+    text-align: center;
+    font-size: 2em;
+    margin: 0 0 1em;
 }
 
 .titulo-centralizado{
     text-align: center;
 }
+
+
 
 p{
     text-align: center;
@@ -38,10 +53,6 @@ em strong{
     font-style: italic;
 }
 
-.beneficios{
-    background-color: #FFFFFF;
-    padding: 20px;
-}
 
 
 ul{
@@ -49,10 +60,6 @@ ul{
     vertical-align: top;
     width: 20%;
     margin-right: 15%;
-}
-
-.imagembeneficios{
-    width: 50%;
 }
 
 
